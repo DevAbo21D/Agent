@@ -1,0 +1,26 @@
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.custom-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+    background: #0a0a0a;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 3px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+    background: #c5a059;
+}
